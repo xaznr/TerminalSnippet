@@ -1,0 +1,43 @@
+.term-button {
+    float: left;
+    width: 0.9em;
+    height: 0.9em;
+    margin-top: 0.6em;
+    margin-left: 0.6em;
+    border-radius: 50%;
+}
+
+.term-titlebar {
+    margin: auto;
+    width: 50em;
+    height: 2em;
+    border-radius: 0.5em 0.5em 0em 0em;
+    background-color: #2F343F;
+    color: #BABABA;
+    line-height: 2em;
+    font-family: Consolas, 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.term-body {
+    margin: auto;
+    width: 48em;
+    padding-top: 1em;
+    padding-bottom: 2em;
+    padding-left: 2em;
+    border-radius: 0em 0em 0.5em 0.5em;
+    border-bottom-style: solid;
+    background: #292929;
+    color:whitesmoke;
+    font-family: Consolas, 'Courier New', Courier, monospace;
+    line-height: 60%;
+}
+
+#command {
+    color: #45CFBF;
+    font-weight: bold;
+}
+
+#folder {
+    color: #387BF0;
+}

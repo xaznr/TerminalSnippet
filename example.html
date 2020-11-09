@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Terminal Snippet Example</title>
+        <link rel="stylesheet" href="src/min/TerminalSnippet.min.css">
+        <script type="text/javascript" src="src/min/TerminalSnippet.min.js"></script>
+    </head>
+    <body>
+
+        <terminal-snippet>
+            <p id="command">$ ls -l</p>
+            <p>total 3</p>
+            <p>drwxr-xr-x. 2 user user 4096 Jan 11 15:20 <span id="folder">Desktop</span></p>
+            <p>drwxr-xr-x. 2 user user 4096 Jan 22 00:02 <span id="folder">Documents</span></p>
+            <p>drwxr-xr-x. 2 user user 4096 Mar 21 07:00 <span id="folder">Downloads</span></p>
+            <p id="command">$ sudo apt upgrade</p>
+            <p>Reading package lists... Need my glasses</p>
+            <p>Building dependency tree... Chopping dependency tree</p>
+            <p>Reading state information... Anarchist</p>
+            <b style="color: red;">300 packages can be upgraded.</b> Run 'me --supersize' to see them.
+        </terminal-snippet>
+        
+    </body>
+</html>
